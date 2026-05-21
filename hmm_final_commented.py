@@ -468,7 +468,7 @@ def main():
             gene_df, state_path, stats = analyze_sequence(file, pi, a, b, hexamer_to_indices)
 
             if gene_df is not None and not gene_df.empty:
-                print("\n✓ Genes identified:")
+                print("\nGenes identified:")
                 print(gene_df.to_string(index=False))
             elif gene_df is not None:
                 print("\nNo gene-like structures were found in this sequence")
