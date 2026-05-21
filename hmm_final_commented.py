@@ -443,10 +443,10 @@ def main():
 
     try:
         pi, a, b, hexamer_to_indices = train_hmm_files(fasta_pattern, gff_pattern)
-        print("\n✓ Model training successful!")
+        print("\n Model training successful!")
 
     except ValueError as e:
-        print(f"\n✗ Training failed: {e}")
+        print(f"\n Training failed: {e}")
         print("\nPlease check:")
         print("  1. Do the FASTA files exist in 'hmm_data/' folder?")
         print("  2. Do the GFF files exist (same name as FASTA files)?")
