@@ -1,0 +1,3 @@
+NC_000866.4	HMM	intron	44817	45847	.	.	.	gene_id "predicted_intron_1"; transcript_id "predicted_intron_1";
+NC_000866.4	HMM	intron	138448	139048	.	.	.	gene_id "predicted_intron_2"; transcript_id "predicted_intron_2";
+NC_000866.4	HMM	intron	143548	144565	.	.	.	gene_id "predicted_intron_3"; transcript_id "predicted_intron_3";
